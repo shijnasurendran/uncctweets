@@ -1,0 +1,36 @@
+/* The styles for the elements */
+
+/* The styles for the classes */
+
+/* The styles for the specific elements (by Id) */
+
+/* Home page navbar java script*/
+body{
+    margin-left: 2em; 
+}
+h1 {     
+    font-size: 140%;
+}
+label {
+    float: left; 
+    width: 7em; 
+    font-weight: bold; 
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    margin-bottom: 0.5em;
+}
+/* The styles for the classes */
+.pad_top{
+    padding-top: 0.25em; 
+}
+.mar_bottom{
+    margin-bottom: 0.5em;
+}
+input:invalid {
+    background-color: #feff77;
+}
+
+
+input:required:invalid {
+  border-color: #C00000;
+}

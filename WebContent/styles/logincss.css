@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+  margin: 0 auto;
+  padding-top: 20%;
+  padding-left: 15%;
+  text-transform:uppercase;
+	font-size:30px;
+	color:black;
+}
+
+body {
+	font-family: Helvetica;
+	margin:0 auto;
+  min-height:10%;
+  margin-top: -14%;
+	background: white  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}
+#HomePageWeb
+{
+	align:left;
+}
+.nav {
+	align:right;
+	width: 600px;
+	height: 250px;
+	background: #fff;
+	border-radius: 5px; 
+	text-align: centre;
+	padding-top: 1px;
+	<!--box-shadow: 0 0 10px rgba(0,0,0, .5);-->
+  
+}
+
+.email {
+	border: 1px solid #a6a6a6;
+	width: 230px;
+	height: 40px;
+	border-radius: 3px;
+	margin-top: 25px;
+	padding-left: 9px;
+	color: #6c6c6c;
+	background: #fcfcfc;
+	outline: none;
+}
+
+.password {
+	border: 1px solid #a6a6a6;
+	width: 210px;
+	height: 40px;
+	border-radius: 3px;
+	margin-top: 5px;
+        margin-right: 3px;
+	padding-left: 9px;
+	color: #6c6c6c;
+	background: #fcfcfc;
+	outline: none;
+}
+
+.password:hover, .email:hover {
+	box-shadow: 0 0 10px rgba(178,34,34, 1); 
+	border: 1px #b22222	 solid ;
+}
+
+.password:focus, .email:focus, .button:focus, .button:hover:focus{
+	box-shadow: 0 0 10px rgba(178,34,34, 1); 
+	border: 1px #b22222	 solid ;
+}
+
+.button {
+  color:#fff;
+  font-size:20px;
+	border: 1px solid #a6a6a6;
+	width: 100px;
+	height: 43px;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-right: 6px;
+        padding-left: 9px;
+	outline: none;
+        background-color: #1f6d28; /* Old browsers */
+  }
+
+  
+.button:hover{
+    background-color: #28597a; /* Old browsers */
+ }
+  
+label {
+  position: relative;
+  top: 5px;
+  margin-right: 115px;
+}
+label span {
+  margin-left: 5px;
+  font-size:14px;
+}
+
+section{
+    text-align:center;
+    position: relative;
+   
+}
+
+	
